@@ -1,0 +1,48 @@
+table {
+    border: solid darkgray 1px;
+    border-collapse: collapse;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+tr:nth-child(2n) {
+    background-color: #ececd8
+}
+
+th {
+    background-color: #56b906;
+    font-weight: normal;
+    text-align: left;
+    padding: 5px;
+    color: white
+}
+
+td,
+th {
+    border-right: solid darkgray 1px;
+    padding: 3px
+}
+
+#germany {
+    content: url(http://www.vectorportal.com/img_novi/germany-vector-flag_1243.jpg);
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+}
+
+.mexico {
+    content: url(http://www.freelargeimages.com/wp-content/uploads/2014/12/Mexico_flag-2.jpg);
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+}
+
+#uk {
+    content: url(https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1280px-Flag_of_the_United_Kingdom.svg.png);
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+}
