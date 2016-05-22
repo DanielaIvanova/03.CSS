@@ -1,0 +1,92 @@
+#container {
+    width: 900px;
+    height: 690px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: corbel, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+hr {
+    height: 2px;
+    width: 96%;
+    background-color: black;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+ul {
+    text-align: center;
+}
+
+a {
+    color: #00aff0;
+    font-size: 24px;
+}
+
+#left {
+    float: left;
+    border: 3px solid black;
+    padding: 5px;
+}
+
+#right {
+    float: right;
+    width: 290px;
+    height: 400px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.insideLeft {
+    float: left;
+}
+
+.insideRight {
+    float: right;
+}
+
+.mostInsideLeft {
+    float: left;
+}
+
+.mostInsideRight {
+    float: right;
+}
+
+legend {
+    text-align: center;
+}
+
+fieldset {
+    border: 3px solid black;
+}
+
+.mostInsideLeft p {
+    text-align: center;
+}
+
+.mostInsideRight p {
+    margin-top: 28px;
+    margin-left: 3px;
+}
+
+#right div {
+    text-align: center;
+}
+
+.leftPrice {
+    float: left;
+    margin-left: 60px;
+}
+
+.rightPrice {
+    float: right;
+    margin-right: 70px;
+}
