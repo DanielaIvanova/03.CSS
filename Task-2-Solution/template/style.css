@@ -1,0 +1,94 @@
+html,
+body {
+    font-family: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: 16px;
+}
+
+#wrapper {
+    width: 960px;
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu li {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+    height: 180px;
+    width: 180px;
+    border: 20px solid #808080;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#737373+0,ffffff+100 */
+    background: #737373;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #737373 0%, #ffffff 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #737373 0%, #ffffff 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #737373 0%, #ffffff 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#737373', endColorstr='#ffffff', GradientType=0);
+    /* IE6-9 */
+}
+
+li h3 {
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    margin-top: 9px;
+    margin-bottom: 10px;
+}
+
+
+img {
+    width: 120px;
+    height: 100px;
+    border-radius: 10px;
+    
+}
+
+.subtitle {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.click-here {
+    margin: 0;
+    padding: 0;
+    display: none;
+    margin-top: 0px;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+/* hover */
+
+.menu li:hover {
+    border-color: #454545;
+    background: #808080;
+}
+
+.menu li:hover h3 {
+    text-decoration: underline;
+}
+
+.menu li:hover img {
+    width: 140px;
+    height: 110px;
+}
+
+.menu li:hover .click-here {
+    display: block;
+}
+
+.menu li:hover .subtitle {
+    display: none;
+}
